@@ -77,15 +77,13 @@
 			}
 
 			// 1: On
-			var switchOn = document.createElement('label');
+			var switchOn = document.createElement('div');
 			switchOn.setAttribute('class', 'btn btn-'+this.options.onstyle+' btn-'+this.options.size);
-			switchOn.setAttribute('for', this.element.id)
 			switchOn.innerHTML = this.options.onlabel;
 
 			// 2: Off
-			var switchOff = document.createElement('label');
+			var switchOff = document.createElement('div');
 			switchOff.setAttribute('class', 'btn btn-'+this.options.offstyle+' btn-'+this.options.size);
-			switchOn.setAttribute('for', this.element.id)
 			switchOff.innerHTML = this.options.offlabel;
 
 			// 3: Handle
